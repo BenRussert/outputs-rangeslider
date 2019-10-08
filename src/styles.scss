@@ -1,0 +1,54 @@
+.App .output-thing {
+background-color: blue;
+color: red;
+}
+//$btn-size: $component-icon-size + $component-icon-padding;
+$btn-size: 100px;
+$pad: 3px;
+
+
+
+
+.slider {
+    $pad: 3px;
+    padding: $pad $btn-size + 1;
+    height: $btn-size + 2 * $pad;
+    width: 50%;
+    position: relative;
+    display: flex;
+
+
+ .icon-chevron-left{
+ width: 100px;
+ height: 100px;
+ background: red;
+ flex-shrink:3;
+ }
+.icon-chevron-right{
+ width: 100px;
+ height: 100px;
+ background: red;
+ flex-shrink: 3;
+ }
+
+    .range-input {
+      cursor: pointer;
+      
+      //width: $btn-size;
+      //height: $btn-size;
+      border-radius: 10%;
+      border: 1px solid 10%;
+      //margin-left: -($btn-size / 2);
+      //left: $btn-size / 2;
+      //background: $button-background-color;
+      background: red;
+      width: 100%;
+      &:hover {
+        background: #367ebd;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    }
+  
